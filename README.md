@@ -2,7 +2,9 @@
 
 Skill para **Claude Code** e **Codex** que transforma referências (links, prints, pastas ou exports HTML/Stitch) em telas, páginas, protótipos e design systems verificáveis, com briefing, decisões registradas e revisão antes da entrega.
 
-Versão atual: **2.2.0**
+**Mentoria MedMagno** · Mentor **Pedro P.**
+
+Versão atual: **2.2.0** · Licença [MIT](LICENSE)
 
 ## Instalar
 
@@ -50,3 +52,9 @@ references/                  # guias de cada rota
 assets/project-handoff/      # templates de DESIGN.md, regras e skill local
 agents/openai.yaml           # metadados para o Codex
 ```
+
+## Licença e créditos
+
+Criada por **Pedro P.** para a **Mentoria MedMagno** e distribuída sob a [licença MIT](LICENSE).
+
+A skill se inspira nas documentações públicas do Claude Code (Anthropic), do Codex (OpenAI), do Stitch e da especificação `design.md` (Google) e nas WCAG 2.2 (W3C). As fontes, os créditos e as ressalvas sobre marcas e materiais de terceiros estão em [CREDITOS.md](CREDITOS.md).
