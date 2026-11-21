@@ -1,14 +1,14 @@
 # Origem da PP Desing unificada (2.3.0)
 
-Unificação feita em 20/11/2026 a pedido do Pedro, para que Claude Code, Codex/ChatGPT e Gemini passem a usar uma única versão hospedada na BASE OS. As três instalações originais **não foram alteradas**; um snapshot fiel de cada uma está em `backups/pp-desing-2026-11-20/` (com `manifesto.json` de hashes SHA-256).
+Unificação feita em 20/11/2026 a pedido do Pedro, para que Claude Code, Codex/ChatGPT e Gemini passem a usar uma única versão hospedada na BASE OS. As três instalações originais **não foram alteradas**; um snapshot fiel de cada uma está em `<BASE OS>/backups/pp-desing-2026-11-20/` (com `manifesto.json` de hashes SHA-256).
 
 ## Fontes comparadas
 
 | Cópia | Caminho original | Arquivos | Última modificação | Observação |
 | --- | --- | --- | --- | --- |
-| A — Claude Code | `C:\Users\Pedro Oliveira\.claude\skills\pp-desing` | 13 | 15/10/2026 | 2.1.1 do Codex + adaptações para Claude (descrição ampla, `argument-hint`, seção "Execução no Claude Code"); CRLF |
-| B — Codex/ChatGPT | `C:\Users\Pedro Oliveira\.agents\skills\pp-desing` | 27 | 03/11/2026 | 2.2.0 com `organization_revision` 2026-10-23, módulos `organizacao-*`, reprodução por URL e avisos de licença; LF. Idêntica à skill do pacote `Documents\Codex\2026-11-03\te\outputs\pp-desing-github` |
-| C — Gemini | `C:\Users\Pedro Oliveira\.gemini\config\plugins\migrated-settings\skills\pp-desing` | 13 | 14/11/2026 (só SKILL.md) | Cópia migrada de A. 12 arquivos idênticos por hash; `SKILL.md` difere apenas no fim de linha de 3 linhas do frontmatter (CRLF→LF) — conteúdo igual a A |
+| A — Claude Code | `~/.claude/skills/pp-desing` | 13 | 15/10/2026 | 2.1.1 do Codex + adaptações para Claude (descrição ampla, `argument-hint`, seção "Execução no Claude Code"); CRLF |
+| B — Codex/ChatGPT | `~/.agents/skills/pp-desing` | 27 | 03/11/2026 | 2.2.0 com `organization_revision` 2026-10-23, módulos `organizacao-*`, reprodução por URL e avisos de licença; LF. Idêntica à skill do pacote `pp-desing-github` |
+| C — Gemini | `~/.gemini/config/plugins/migrated-settings/skills/pp-desing` | 13 | 14/11/2026 (só SKILL.md) | Cópia migrada de A. 12 arquivos idênticos por hash; `SKILL.md` difere apenas no fim de linha de 3 linhas do frontmatter (CRLF→LF) — conteúdo igual a A |
 
 ## Resultado da comparação A × B
 
@@ -39,4 +39,4 @@ Unificação feita em 20/11/2026 a pedido do Pedro, para que Claude Code, Codex/
 
 ## Fora do pacote (referência)
 
-O pacote GitHub de 03/11 (`Documents\Codex\2026-11-03\te\outputs\pp-desing-github` e `pp-desing-2.2.0-github.zip`) tem também `README.md`, o exemplo `exemplos/oficina-da-dobra` e `scripts/verificar.py`. Eles não fazem parte de nenhuma instalação e não foram copiados; os links desta versão foram conferidos com a mesma lógica do `verificar.py` (55 links internos, nenhum ausente). Pendências herdadas de B: licença própria da PP Desing e conferência de atribuição de algumas fontes (ver `references/organizacao-proveniencia.md`).
+O pacote GitHub de 03/11 (`pp-desing-github` e `pp-desing-2.2.0-github.zip`) tem também `README.md`, o exemplo `exemplos/oficina-da-dobra` e `scripts/verificar.py`. Eles não fazem parte de nenhuma instalação e não foram copiados; os links desta versão foram conferidos com a mesma lógica do `verificar.py` (55 links internos, nenhum ausente). Pendências herdadas de B: licença própria da PP Desing e conferência de atribuição de algumas fontes (ver `references/organizacao-proveniencia.md`).
