@@ -14,7 +14,9 @@ Leia o pedido vigente, o contrato visual e os critérios da etapa. Use a estrat�
 
 ## 2. Conferir o resultado pronto
 
-Abra a versão efetivamente produzida e faça uma passagem separada da implementação. Na estratégia fiel, compare com a referência principal nas mesmas condições de largura e tema; na inspirada, confira a coerência com os princípios e a identidade escolhidos; na evolução, confira os contratos e as melhorias combinadas. Inspecione o código quando precisar explicar ou corrigir um comportamento observado.
+Abra a versão efetivamente produzida e faça uma passagem separada da implementação. Na estratégia fiel, compare com a referência principal nas mesmas condições de largura e tema. Na inspirada, confira a coerência com os princípios e a identidade escolhidos. Na evolução, confira os contratos e as melhorias combinadas. Inspecione o código quando precisar explicar ou corrigir um comportamento observado.
+
+Para cópia por link, aplique os [critérios de comparação e cobertura](reproducao-por-url.md#conferir-e-entregar). Use a tabela seguinte nas áreas pertinentes ao recorte.
 
 | Área | Conferência exigida quando aplicável |
 | --- | --- |
@@ -44,7 +46,7 @@ Autocorreção não autoriza trocar a marca, alterar um algoritmo do domínio, c
 
 ## 4. Identificar e implementar movimento útil
 
-Inspecione todos os elementos de dados e controles da entrega executável. Na ausência de restrição expressa, implemente animações discretas nos gráficos e indicadores que comuniquem entrada ou mudança, além do feedback de interação pertinente. Faça essa implementação durante a revisão; não encerre com uma lista do que poderia ser animado.
+Inspecione todos os elementos de dados e controles da entrega executável. Na reprodução fiel, aplique movimento decorativo somente quando observado na referência ou solicitado pelo usuário. Uma captura estática, por si só, não comprova animação. Preserve o funcionamento de controles, seleção e foco mesmo quando a apresentação é estática. A tabela abaixo orienta apenas os movimentos cabíveis nessa estratégia. Nas estratégias inspirada e de evolução, salvo restrição expressa, implemente animações discretas nos gráficos e indicadores que comuniquem entrada ou mudança, além do feedback de interação pertinente. Faça essa implementação durante a revisão; não encerre com uma lista do que poderia ser animado.
 
 | Elemento | Movimento a considerar e conferir |
 | --- | --- |

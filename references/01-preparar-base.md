@@ -41,6 +41,10 @@ Para anexos/pastas, confirme quais itens o ambiente consegue acessar, inventarie
 
 Se um link falhar, tente uma alternativa disponível, como a página renderizada, uma versão pública oficial ou outra referência fornecida. Registre o alcance real do acesso; não contorne controles nem declare material inacessível como analisado. Se a referência principal indispensável à reprodução fiel continuar ausente, peça o material necessário e mantenha a comparação como pendente; no modo autônomo, desenvolva o restante possível sem inventar a evidência.
 
+## Cópia fiel a partir de um link
+
+Para reproduzir uma seção, página ou site, use o [fluxo de reprodução por URL](reproducao-por-url.md) para delimitar rotas, capturar a referência e medir a composição antes de construir.
+
 ## Entregáveis
 
 Crie somente as pastas necessárias; um pedido pequeno pode reunir os registros em um único documento. Para uma biblioteca, use esta organização como referência:

@@ -77,6 +77,6 @@ Se já houver um export, atualize-o de forma rastreável. Não acumule cópias c
 
 Confira a cobertura entre briefing e inventário; não reduza a biblioteca a tokens. Verifique consistência visual dos temas, hierarquia, legibilidade, responsividade e estados disponíveis. Se houver código executável e ambiente compatível, valide-o e registre os comandos e resultados; se não houver, declare essa limitação.
 
-Após a primeira versão pronta, execute [a revisão final com correções e animações](05-revisar-corrigir-entregar.md). Quando o export for executável, confira o resultado renderizado, aplique os ajustes e o movimento útil nos gráficos/controles e revalide antes da entrega. Quando a ferramenta só produzir material estático, confira esse material e documente o movimento a implementar posteriormente, sem declarar que ele foi executado.
+Após a primeira versão pronta, execute [a revisão final](05-revisar-corrigir-entregar.md). Quando o export for executável, confira o resultado renderizado, aplique as correções e use a regra de movimento da estratégia escolhida. Revalide antes da entrega. Em material estático, confira a saída disponível e documente apenas o movimento previsto para a implementação.
 
 Entregue o export, a matriz de cobertura, referências visuais e um resumo das escolhas. Separe validação técnica de revisão humana da direção visual. Não execute a migração para o projeto nem apague as fontes nesta etapa.

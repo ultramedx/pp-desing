@@ -22,7 +22,7 @@ Use `BRIEF.md` e `DECISOES.md` existentes. Numa entrega pequena, essas informaç
 - **Fiel:** quando solicitado, preserve os elementos visuais especificados e compare com a referência principal em condições equivalentes. Registre medidas inferidas, adaptações de acessibilidade e estados que a fonte não mostra. Fidelidade não comprova licença para reutilizar marcas ou arquivos.
 - **Evolução:** preserve os contratos e a identidade existentes; use as referências para resolver problemas e melhorar as partes solicitadas.
 
-Inferir a estratégia de uma instrução clara evita repetir perguntas: “inspirado”, “com minha marca”, “reproduza fielmente” ou “melhore este projeto” já indicam direções. Se “novo design” for ambíguo, esclareça no modo colaborativo. No autônomo, escolha a interpretação que melhor atende ao objetivo; sem pedido de cópia, priorize inspiração para um projeto novo e registre a escolha.
+Inferir a estratégia de uma instrução clara evita repetir perguntas. “Copie o design deste link” pede reprodução fiel do recorte indicado. “Copie o layout com a minha marca” mantém a composição como referência e trata logotipo, textos ou cores indicados pelo usuário como adaptações intencionais. “Use este site como inspiração” permite uma composição própria. “Melhore este projeto” indica evolução da identidade existente. Se “novo design” for ambíguo, esclareça no modo colaborativo. No autônomo, escolha a interpretação que melhor atende ao objetivo; sem pedido de cópia, priorize inspiração para um projeto novo e registre a escolha.
 
 ## Modo colaborativo
 

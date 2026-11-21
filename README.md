@@ -1,10 +1,10 @@
 # pp-desing
 
-Skill para **Claude Code** e **Codex** que transforma referências (links, prints, pastas ou exports HTML/Stitch) em telas, páginas, protótipos e design systems verificáveis, com briefing, decisões registradas e revisão antes da entrega.
+Skill para **Claude Code**, **Codex** e **Gemini** que transforma referências (links, prints, pastas ou exports HTML/Stitch) em telas, páginas, protótipos e design systems verificáveis — inclusive reprodução fiel a partir de um link — com briefing, decisões registradas e revisão antes da entrega.
 
 **Mentoria MedMagno** · Mentor **Pedro P.**
 
-Versão atual: **2.2.0** · Licença [MIT](LICENSE)
+Versão atual: **2.3.0** · Licença [MIT](LICENSE)
 
 ## Instalar
 
@@ -14,6 +14,7 @@ Versão atual: **2.2.0** · Licença [MIT](LICENSE)
 2. Extraia a pasta `pp-desing/` na pasta de skills da sua ferramenta:
    - Claude Code: `~/.claude/skills/pp-desing/`
    - Codex: a pasta de skills indicada na documentação atual do Codex (no repositório: `.agents/skills/pp-desing/`).
+   - Gemini: a pasta de skills indicada na documentação vigente do Gemini.
 3. Confirme que o arquivo final está em `.../pp-desing/SKILL.md` e abra uma sessão nova.
 
 ### Opção 2 — clonar
@@ -44,11 +45,18 @@ A skill define a estratégia (**inspirado**, **fiel** ou **evolução**), o modo
 | Revisar e entregar | `references/05-revisar-corrigir-entregar.md` | revisão, correções e movimento |
 | Aplicar e manter | `references/06-aplicar-manter-padroes.md` | `DESIGN.md`, entradas de Claude Code, Codex e Stitch |
 
+A reprodução fiel a partir de um link está em `references/reproducao-por-url.md`. O histórico da versão está em [CHANGELOG.md](CHANGELOG.md).
+
 ## Estrutura
 
 ```text
 SKILL.md                     # ponto de entrada da skill
-references/                  # guias de cada rota
+CHANGELOG.md                 # histórico de versões
+ORIGEM.md                    # unificação 2.3.0 e decisões de merge
+CREDITOS.md                  # créditos, inspirações e ressalvas
+LICENSE                      # licença MIT
+README.md                    # este guia
+references/                  # guias de cada rota, módulos de organização, reprodução por URL e avisos
 assets/project-handoff/      # templates de DESIGN.md, regras e skill local
 agents/openai.yaml           # metadados para o Codex
 ```

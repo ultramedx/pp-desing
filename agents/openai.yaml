@@ -1,6 +1,6 @@
 interface:
   display_name: "PP Desing"
-  short_description: "Crie e aplique designs com referências e revisão"
-  default_prompt: "Use $pp-desing para criar ou aplicar este design, esclarecer dúvidas ou assumir escolhas delegadas, e preparar o contrato local para manter os padrões durante o desenvolvimento com IA."
+  short_description: "Crie, aplique ou reproduza designs por link, com revisão"
+  default_prompt: "Use $pp-desing para criar, aplicar ou reproduzir este design (inclusive a partir do link que forneci, comparando em desktop e celular), esclarecer dúvidas ou assumir escolhas delegadas, e preparar o contrato local para manter os padrões durante o desenvolvimento com IA."
 policy:
   allow_implicit_invocation: true
